@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "siteboath-autoplan_jd176"
+name = "siteboath-data_mix_curriculum_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://siteboath.github.io"
-Repository = "https://github.com/siteboath/autoplan_jd176"
-Issues = "https://github.com/siteboath/autoplan_jd176/issues"
+Repository = "https://github.com/siteboath/data_mix_curriculum_threshold_scan"
+Issues = "https://github.com/siteboath/data_mix_curriculum_threshold_scan/issues"
 
 [project.scripts]
-autoplan_jd176 = "autoplan_jd176:main"
+data_mix_curriculum_threshold_scan = "data_mix_curriculum_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["autoplan_jd176"]
+py-modules = ["data_mix_curriculum_threshold_scan"]

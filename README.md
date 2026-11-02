@@ -1,11 +1,11 @@
-# autoplan_jd176
+# data_mix_curriculum_threshold_scan
 
 **给自动驾驶规划控制专家·训练数据配比与课程学习打分并按阈值给出通过与否。**
 
-`autoplan_jd176` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
+`data_mix_curriculum_threshold_scan` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`autoplan_jd176.py` 拷走就能用
+- 单文件，`data_mix_curriculum_threshold_scan.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install siteboath-autoplan_jd176
+pip install siteboath-data_mix_curriculum_threshold_scan
 ```
 
 装完直接用命令名调用：
 
 ```bash
-autoplan_jd176 --help
+data_mix_curriculum_threshold_scan --help
 ```
 
-也可以不用安装，直接把 `autoplan_jd176.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `data_mix_curriculum_threshold_scan.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ autoplan_jd176 --help
 ## 用法
 
 ```bash
-python autoplan_jd176.py --file input.txt
-python autoplan_jd176.py --text "示例内容"
-python autoplan_jd176.py --file input.txt --json
+python data_mix_curriculum_threshold_scan.py --file input.txt
+python data_mix_curriculum_threshold_scan.py --text "示例内容"
+python data_mix_curriculum_threshold_scan.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python autoplan_jd176.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_autoplan_jd176.py
+python test_data_mix_curriculum_threshold_scan.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_autoplan_jd176.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/siteboath/autoplan_jd176>
+- GitHub 仓库：<https://github.com/siteboath/data_mix_curriculum_threshold_scan>
 
 ---
 
@@ -79,7 +79,7 @@ python test_autoplan_jd176.py
 siteboath 做自动驾驶规划控制专家·训练数据配比与课程学习相关的问题，方向对标智谱AI的资深自动驾驶规划控制专家岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://siteboath.github.io>
-- 仓库：<https://github.com/siteboath/autoplan_jd176>
+- 仓库：<https://github.com/siteboath/data_mix_curriculum_threshold_scan>
 
 ## 许可
 
